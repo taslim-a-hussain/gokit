@@ -1,3 +1,5 @@
-declare const cap: (str: string) => string;
+declare const _default: {
+    cap: (str: string) => string;
+};
 
-export { cap };
+export { _default as default };

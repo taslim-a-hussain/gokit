@@ -1,5 +1,5 @@
 import {cap} from './func';
 
-export {
+export default {
     cap
 };

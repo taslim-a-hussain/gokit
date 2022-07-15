@@ -1,2 +1,4 @@
-import { cap } from './func';
-export { cap };
+declare const _default: {
+    cap: (str: string) => string;
+};
+export default _default;
