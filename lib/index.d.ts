@@ -1,5 +1,10 @@
-declare const _default: {
-    cap: (str: string) => string;
-};
+declare const cap: (str: string) => string;
 
-export { _default as default };
+declare const g_cap: typeof cap;
+declare namespace g {
+  export {
+    g_cap as cap,
+  };
+}
+
+export { cap, g as default };

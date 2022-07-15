@@ -1,5 +1,8 @@
 import {cap} from './func';
+import * as g from './func';
 
-module.exports = {
+export {
     cap
-};
+}
+
+export default g;
