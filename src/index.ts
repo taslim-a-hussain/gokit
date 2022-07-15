@@ -1,5 +1,5 @@
 import {cap} from './func';
 
-export default {
+module.exports = {
     cap
 };
