@@ -1,6 +1,6 @@
 {
   "name": "gokit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Handy functions",
   "main": "lib/index.js",
   "module": "lib/index-esm.js",
