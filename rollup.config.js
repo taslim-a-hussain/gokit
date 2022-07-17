@@ -12,11 +12,13 @@ export default [
         output: [
             {
                 file: "lib/index.js",
-                format: "cjs"
+                format: "cjs",
+                exports: "named"
             },
             {
                 file: "lib/index-esm.js",
-                format: "es"
+                format: "es",
+                exports: "named"
             },
         ],
         plugins: [
