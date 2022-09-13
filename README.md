@@ -42,7 +42,7 @@ import {cap} from 'gokit';
     console.log(output); // Some String
     ```
 * `fname(str: string)`
-    > Breaks fullname into 3 parts (firstname, middlename, lastname). Returns an object (first, middle, last). Automatically removes all extra spaces and converts all letters to lowercase.
+    > Breaks fullname into 3 parts (firstname, middlename, lastname). Returns an object with keys (first, middle, last). Automatically removes all extra spaces and converts all letters to lowercase.
     ```js
     const fullname = ' Mike  John  Doe   Ali  ';
     const output = fname(fullname);
