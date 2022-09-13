@@ -1,6 +1,6 @@
 {
   "name": "gokit",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Handy functions",
   "main": "lib/index.js",
   "module": "lib/index-esm.js",
@@ -11,6 +11,10 @@
   "repository": "git@github.com:taslim-a-hussain/gokit.git",
   "author": "Taslim A Hussain",
   "license": "MIT",
+  "keywords": [
+    "gokit",
+    "js handy functions"
+  ],
   "devDependencies": {
     "@babel/core": "^7.18.6",
     "@rollup/plugin-babel": "^5.3.1",

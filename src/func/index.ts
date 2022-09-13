@@ -24,3 +24,22 @@ export const fcap = (str: string):string => {
     }
     return process.join(' ');
 };
+
+type Fullname = {
+    first: string;
+    middle: string;
+    last: string;
+}
+
+export const fname = (str: string):Fullname => {
+    const serializedValue = ftrim(str);
+    const parts = serializedValue.split(' ');
+    const first = parts[0].toLowerCase();
+    const middle = parts.slice(1, -1).join(' ').toLowerCase();
+    const last = parts.length > 1 ? parts[parts.length - 1].toLowerCase() : '';
+    return {
+        first,
+        middle,
+        last
+    };
+};
