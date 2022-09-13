@@ -1,10 +1,11 @@
-import {cap, ftrim, fcap} from './func';
+import {cap, ftrim, fcap, fname} from './func';
 import * as g from './func';
 
 export {
     cap,
     ftrim,
-    fcap
+    fcap,
+    fname
 }
 
 export default g;
