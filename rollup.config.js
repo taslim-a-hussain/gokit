@@ -28,7 +28,7 @@ export default [
             typescript({
                 useTsconfigDeclarationDir: true
             }),
-            terser(),
+            // terser(),
             babel({ babelHelpers: 'bundled' })
         ]
     },
